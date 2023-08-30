@@ -1,0 +1,29 @@
+[
+{"day" : "1" , "title" : "Introduction to browser and web","date" : "03/12/2022","time":"10:00 AM - 12:30PM","contents" : ["Introduction to web", "Browser", 
+"Wars DOM tree VS CSSOM tree",
+"Intro to Browser internals(HTML parser, CSS parser)",
+"JavaScript V8 engine internals" ,
+"Intro to IP, MAC address", "Ports",
+"HTTP Methods",
+"How the Server looks at the URL",
+"Console on Browser js vs Node js",
+"Data types"]
+ },
+ {"day" : "2" , "title" : "Request & Response cycle","date" : "03/12/2022","time":"10:00 AM - 12:30PM","contents" : ["Introduction to web", "Browser", 
+"Wars DOM tree VS CSSOM tree",
+"Intro to Browser internals(HTML parser, CSS parser)",
+"JavaScript V8 engine internals" ,
+"Intro to IP, MAC address", "Ports",
+"HTTP Methods",
+"How the Server looks at the URL",
+"Console on Browser js vs Node js",
+"Data types"] 
+}
+]
+
+{
+    "name" : "agr",
+    "email" : "agr@gmail.com",
+    "password":"$2b$10$v54ern2.aqaWYKN/V.44U.NglKY7dcVDuR85TUo8XJAGZA8sUL0pe",
+    "role":"admin"
+}
