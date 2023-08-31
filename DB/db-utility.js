@@ -87,6 +87,22 @@ const editEntityQuery = async (name, obj) => {
     );
 };
 
+const editEntityPortFolio = async (name, obj) => {
+  return await client
+    .db("zenstudentdashboard")
+    .collection(name)
+    .updateOne(
+      { email: obj.email },
+      {
+        $set: {
+          comments: obj.comments,
+          evaluated: obj.evaluated,
+          reviewedby: obj.reviewedby,
+        },
+      }
+    );
+};
+
 export {
   getAllEntity,
   createEntity,
@@ -97,4 +113,5 @@ export {
   getAllEntityType,
   editEntityLeave,
   editEntityQuery,
+  editEntityPortFolio,
 };
